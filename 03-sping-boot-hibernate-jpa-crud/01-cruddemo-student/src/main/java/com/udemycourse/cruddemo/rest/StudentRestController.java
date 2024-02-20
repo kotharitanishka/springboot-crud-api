@@ -27,7 +27,7 @@ public class StudentRestController {
         return s.findAll();
     }
 
-    @GetMapping("/student/{studentId}")
+    @GetMapping("/students/{studentId}")
     public Student findStudentById(@PathVariable int studentId) {
         return s.findById(studentId);
     }
